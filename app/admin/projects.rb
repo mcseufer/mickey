@@ -1,4 +1,5 @@
 ActiveAdmin.register Projects do
+  permit_params :projectname, :synopsis, :technologies, :projectthumb
 
 
   # See permitted parameters documentation:
