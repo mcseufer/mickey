@@ -1,4 +1,5 @@
 ActiveAdmin.register Blog do
+  permit_params :title, :blogpost
 
 
   # See permitted parameters documentation:
